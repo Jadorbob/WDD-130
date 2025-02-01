@@ -42,40 +42,44 @@ footer p {
 }  
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+.social img {
+    width: 50px;
+    height: 50px;
+}
 
 
 /* This is for colors */
 
 body {
-    background-color: #f4f4f4; /* Light gray */
-    color: #ffffff; /* Dark gray text */
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
-    background-color: #333; /* Dark gray */
-    color: #fff; /* White text */
+    background-color: #e7cc34;
+    color: #fff; 
 }
 
 nav a:hover {
-    background-color: #555; /* Medium gray */
+    background-color: #9c1c1c; /* Medium gray */
     color: #fff; /* White text */
 }
 
 .book, .join {
-    background-color: #243e5a; /* Blue */
-    color: #fff; /* White text */
+    background-color: #ffffff; /* Blue */
+    color: #50d8fa; /* White text */
     text-decoration: none;
 }
 
 .book:hover, .join:hover {
-    background-color: #cad9e9; /* Darker blue */
-    color: #fff; /* White text */
+    background-color: #3deaf0; /* Darker blue */
+    color: #ff3333; /* White text */
 }
 
 #background {
-    background-color: #e0e0e0; /* Light gray */
-    color: #333; /* Dark gray text */
+    background-color: #ac2f59; /* Light gray */
+    color: #ffffff; /* Dark gray text */
 }
 
 .msg {
