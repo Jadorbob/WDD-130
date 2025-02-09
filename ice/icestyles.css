@@ -1,0 +1,39 @@
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #5CA1D7;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.p1 {
+    color: white;
+    font-size: 30;
+}
+.p2 {
+    color: white;
+    font-size: 30;
+}
+
+
+ol {
+    color: black;
+    text-align: left;
+    font-size: 50;
+}
+
+.img {
+    max-width: 70px;
+    height: auto;
+}
+
+.bottom {
+    color: black;
+    font-size: 60 px;
+}
+
