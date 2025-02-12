@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6ea;
+    color: #5a1a2c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper */
+#wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #ffb6c1;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Main Content */
+h1 {
+    color: #d6336c;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    background: #ffd9e6;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #b2184d;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb6c1;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
