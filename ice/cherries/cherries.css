@@ -13,26 +13,31 @@ body {
 
 /* Left half: Image */
 .img {
-    grid-column: 1 / 2;
 }
 
 /* Right half: Gray background */
 .greyhalf {
-    grid-column: 2 / 3;
+    justify-items: center;
     background-color: grey;
+    align-content: end;
+
 }
 
 /* Title spanning both halves */
 .title {
-    grid-area: 1 / 1 / 2 / 3; /* Start at top-left, span both columns */
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 100px;
-    color: white;
-    text-align: center;
     z-index: 2;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cherries {
     color: red;
+    padding: 100px;
+}
+.absolute {
+    position: absolute;
+    width: 100vw;
+    /* background: green; */
+    top: 100px;
 }
