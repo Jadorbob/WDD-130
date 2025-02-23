@@ -37,4 +37,5 @@ body {
     width: 100vw;
     /* background: green; */
     top: 100px;
+    grid-column: 1/3;
 }
