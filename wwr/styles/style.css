@@ -173,10 +173,6 @@ footer .social img {
 .camping_card, .swimming_card, .zipline_card {
     margin: 200px 0;
 }
-
-.card-img {
-    border: 10px solid #d9c2a3;
-}
 .camping_card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -188,6 +184,15 @@ footer .social img {
 .zipline_card {
     grid-column: 8/10;
     grid-row: 2/3;
+}
+.card_image {
+    border: 10px solid #f0b261;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card_image:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 
