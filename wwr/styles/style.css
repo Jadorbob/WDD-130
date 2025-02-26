@@ -24,7 +24,7 @@ nav a {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
-.book {
+.books {
     text-align: center;
     color: #DD6E42;
     background-color: #E8DAB2;
@@ -33,6 +33,10 @@ nav a {
     height: 50px;
     width: 100px;
     border: none;
+}
+.book {
+    color: #DD6E42;
+    align-items: center;
 }
 #hero-msg h4 {
     color: #E8DAB2;
@@ -171,7 +175,8 @@ footer {
     color: #DD6E42; /* White text */
     padding: 25px 50px;
     margin-top: 200px;
-    display:flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
