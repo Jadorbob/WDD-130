@@ -1,0 +1,105 @@
+
+#content {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: aqua;
+}
+header {
+    background-color: #4F6D7A;
+    color: #E8DAB2;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 150px;
+}
+nav a:hover {
+    background-color: #E8DAB2; /* Medium gray */
+    color: #DD6E42; /* White text */
+}
+footer {
+    background-color: #222; /* Dark gray */
+    color: #DD6E42; /* White text */
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+body {
+    background-color: white;
+    color: #DD6E42;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.social img {
+    width: 50px;
+    height: 50px;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+footer a {
+    text-decoration: none;
+}
+.logo {
+    height: 100px;
+}
+.book:hover, .join:hover {
+    background-color: #E8DAB2; /* Darker blue */
+    color: #DD6E42; /* White text */
+}
+.books {
+    text-align: center;
+    color: #DD6E42;
+    background-color: #E8DAB2;
+    margin-left: 25vw;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+.book {
+    color: #DD6E42;
+    align-items: center;
+}
+.p {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+}
+.hh {
+    max-width: 12000px;
+    width: 100%;
+}
+.title1 {
+    font-size: 150px;
+}
+.boddy {
+    background-color: #E8DAB2;
+}
