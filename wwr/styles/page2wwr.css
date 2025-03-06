@@ -25,7 +25,7 @@ footer {
     background-color: #222; /* Dark gray */
     color: #DD6E42; /* White text */
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -117,4 +117,7 @@ h1 {
 }
 .boddy {
     background-color: #E8DAB2;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 15px;
 }
