@@ -205,6 +205,33 @@ footer a:hover {
     object-fit: contain;
 }
 
+.fire-btn {
+    background: palegreen;
+    color: black;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+.confetticontainer {
+    background: palegreen;
+    color: black;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 768px) {
     /* Body */
